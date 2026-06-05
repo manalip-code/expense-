@@ -80,7 +80,7 @@ def monthly_summary(expenses):
             total += exp["amount"]
             print(f"{exp['date']} | {exp['title']} | ₹{exp['amount']}")
 
-    print(f"\n💰 Total Spent: ₹{total}\n")
+    print(f"\n Total Spent: ₹{total}\n")
 
 
 # Main menu
@@ -106,7 +106,7 @@ def main():
         elif choice == "4":
             monthly_summary(expenses)
         elif choice == "5":
-            print("Goodbye 👋")
+            print("Goodbye ")
             break
         else:
             print("Invalid choice! Try again.\n")
